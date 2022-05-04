@@ -80,5 +80,8 @@ second coment
 
 // const myDecimal = 5.7;
 
-const product = 2.0 * 2.5;
-console.log(product);//5
+// const product = 2.0 * 2.5;
+// console.log(product);//5
+
+const quotient = 4.4 / 2.0;
+console.log(quotient);
