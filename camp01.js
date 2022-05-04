@@ -83,5 +83,8 @@ second coment
 // const product = 2.0 * 2.5;
 // console.log(product);//5
 
-const quotient = 4.4 / 2.0;
-console.log(quotient);
+// const quotient = 4.4 / 2.0;
+// console.log(quotient);
+
+const remainder = 8 % 3;
+console.log(remainder);//2
