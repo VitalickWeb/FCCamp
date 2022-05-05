@@ -99,11 +99,20 @@ second coment
 // c += 7;
 // console.log(a, c, b);//15, 26, 19
 
-let a = 11;
-let b = 9;
-let c = 3;
+// let a = 11;
+// let b = 9;
+// let c = 3;
 
-a -= 6;
-b -= 15;
-c -= 1;
-console.log(a, b, c);//5, -6, 2
+// a -= 6;
+// b -= 15;
+// c -= 1;
+// console.log(a, b, c);//5, -6, 2
+
+let a = 5;
+let b = 12;
+let c = 4.6;
+
+a *= 5;
+b *= 3;
+c *= 10;
+console.log(a, b, c);//25, 36, 46
