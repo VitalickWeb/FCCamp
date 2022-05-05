@@ -108,11 +108,20 @@ second coment
 // c -= 1;
 // console.log(a, b, c);//5, -6, 2
 
-let a = 5;
-let b = 12;
-let c = 4.6;
+// let a = 5;
+// let b = 12;
+// let c = 4.6;
 
-a *= 5;
-b *= 3;
-c *= 10;
-console.log(a, b, c);//25, 36, 46
+// a *= 5;
+// b *= 3;
+// c *= 10;
+// console.log(a, b, c);//25, 36, 46
+
+let a = 48;
+let b = 108;
+let c = 33;
+
+a /= 12;
+b /= 4;
+c /= 11;
+console.log(a, b, c);//4, 27, 3
