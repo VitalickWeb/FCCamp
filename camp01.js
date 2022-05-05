@@ -89,11 +89,21 @@ second coment
 // const remainder = 8 % 3;
 // console.log(remainder);//2
 
-let a = 3;
-let b = 17;
-let c = 12;
 
-a += 12;
-b += 9;
-c += 7;
-console.log(a, c, b);
+// let a = 3;
+// let b = 17;
+// let c = 12;
+
+// a += 12;
+// b += 9;
+// c += 7;
+// console.log(a, c, b);//15, 26, 19
+
+let a = 11;
+let b = 9;
+let c = 3;
+
+a -= 6;
+b -= 15;
+c -= 1;
+console.log(a, b, c);//5, -6, 2
