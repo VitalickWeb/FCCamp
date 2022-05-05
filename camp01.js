@@ -86,5 +86,14 @@ second coment
 // const quotient = 4.4 / 2.0;
 // console.log(quotient);
 
-const remainder = 8 % 3;
-console.log(remainder);//2
+// const remainder = 8 % 3;
+// console.log(remainder);//2
+
+let a = 3;
+let b = 17;
+let c = 12;
+
+a += 12;
+b += 9;
+c += 7;
+console.log(a, c, b);
