@@ -117,11 +117,15 @@ second coment
 // c *= 10;
 // console.log(a, b, c);//25, 36, 46
 
-let a = 48;
-let b = 108;
-let c = 33;
+// let a = 48;
+// let b = 108;
+// let c = 33;
 
-a /= 12;
-b /= 4;
-c /= 11;
-console.log(a, b, c);//4, 27, 3
+// a /= 12;
+// b /= 4;
+// c /= 11;
+// console.log(a, b, c);//4, 27, 3
+
+
+const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+console.log(myStr);
