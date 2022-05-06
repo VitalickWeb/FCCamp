@@ -162,7 +162,7 @@ second coment
 // console.log(myStr += someAdjective);
 
 
-let lastNameLength = 0;
-const lastName = "Lovelace";
-lastNameLength = lastName.length;
-console.log(lastNameLength);
+// let lastNameLength = 0;
+// const lastName = "Lovelace";
+// lastNameLength = lastName.length;
+// console.log(lastNameLength);
