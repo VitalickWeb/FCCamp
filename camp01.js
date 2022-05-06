@@ -153,5 +153,10 @@ second coment
 // myStr += "This is the second sentence.";
 // console.log(myStr);
 
-const myName = "Vitalick";
-const myStr = "My name is " + myName + " I am well!";
+// const myName = "Vitalick";
+// const myStr = "My name is " + myName + " I am well!";
+// console.log(myStr);
+
+const someAdjective = "very interesting ";
+let myStr = "Learning to code is ";
+console.log(myStr += someAdjective);
