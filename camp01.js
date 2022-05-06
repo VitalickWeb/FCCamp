@@ -157,6 +157,6 @@ second coment
 // const myStr = "My name is " + myName + " I am well!";
 // console.log(myStr);
 
-const someAdjective = "very interesting ";
-let myStr = "Learning to code is ";
-console.log(myStr += someAdjective);
+// const someAdjective = "very interesting ";
+// let myStr = "Learning to code is ";
+// console.log(myStr += someAdjective);
