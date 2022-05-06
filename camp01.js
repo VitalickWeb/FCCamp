@@ -160,3 +160,9 @@ second coment
 // const someAdjective = "very interesting ";
 // let myStr = "Learning to code is ";
 // console.log(myStr += someAdjective);
+
+
+let lastNameLength = 0;
+const lastName = "Lovelace";
+lastNameLength = lastName.length;
+console.log(lastNameLength);
