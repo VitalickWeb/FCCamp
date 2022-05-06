@@ -152,3 +152,6 @@ second coment
 // let myStr = "This is the first sentence. ";
 // myStr += "This is the second sentence.";
 // console.log(myStr);
+
+const myName = "Vitalick";
+const myStr = "My name is " + myName + " I am well!";
