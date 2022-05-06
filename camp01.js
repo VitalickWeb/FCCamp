@@ -145,3 +145,6 @@ second coment
 
 // const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 // console.log(myStr);
+
+const myStr = "This is the start. " + "This is the end.";
+console.log(myStr);
