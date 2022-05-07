@@ -176,8 +176,10 @@ second coment
 // myStr = "Hello World";
 // console.log(myStr);
 
+// const lastName = "Lovelace";
+// const thirdLetterOfLastName = lastName[2];
+// console.log(thirdLetterOfLastName);
+
 const lastName = "Lovelace";
-const thirdLetterOfLastName = lastName[2];
-console.log(thirdLetterOfLastName);
-
-
+const lastLetterOfLastName = lastName[lastName.length -1];
+console.log(lastLetterOfLastName);
