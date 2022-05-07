@@ -184,6 +184,6 @@ second coment
 // const lastLetterOfLastName = lastName[lastName.length -1];
 // console.log(lastLetterOfLastName);
 
-const lastName = "Lovelace";
-const secondToLastLetterOfLastName = lastName[lastName.length -2];
-console.log(secondToLastLetterOfLastName);
+// const lastName = "Lovelace";
+// const secondToLastLetterOfLastName = lastName[lastName.length -2];
+// console.log(secondToLastLetterOfLastName);
