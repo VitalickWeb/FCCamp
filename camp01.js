@@ -172,7 +172,12 @@ second coment
 // firstLetterOfLastName = lastName[0];
 // console.log(firstLetterOfLastName);
 
-let myStr = "Jello World";
-myStr = "Hello world";
-console.log(myStr);
+// let myStr = "Jello World";
+// myStr = "Hello World";
+// console.log(myStr);
+
+const lastName = "Lovelace";
+const thirdLetterOfLastName = lastName[2];
+console.log(thirdLetterOfLastName);
+
 
