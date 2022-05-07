@@ -166,3 +166,9 @@ second coment
 // const lastName = "Lovelace";
 // lastNameLength = lastName.length;
 // console.log(lastNameLength);
+
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+
+firstLetterOfLastName = lastName[0];
+console.log(firstLetterOfLastName);
