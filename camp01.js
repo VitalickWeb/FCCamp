@@ -195,5 +195,5 @@ second coment
 // const wordBlanks = "The " + myNoun + "" + myAdjective + "" + myVerb + "" + myAdverb + "."; 
 // console.log(wordBlanks);
 
-const myArray = ['string', 8];
+
 
