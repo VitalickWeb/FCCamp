@@ -187,3 +187,10 @@ second coment
 // const lastName = "Lovelace";
 // const secondToLastLetterOfLastName = lastName[lastName.length -2];
 // console.log(secondToLastLetterOfLastName);
+
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+const wordBlanks = "The " + myNoun + "" + myAdjective + "" + myVerb + "" + myAdverb + "."; 
+console.log(wordBlanks);
