@@ -32,7 +32,11 @@
 // console.log(myArray);
 // console.log(removedFromMyArray);
 
-const myArray = [["John", 23], ["cat", 2]];
-const removedFromMyArray = myArray.shift();
+// const myArray = [["John", 23], ["cat", 2]];
+// const removedFromMyArray = myArray.shift();
+// console.log(myArray);
+// console.log(removedFromMyArray);
+
+const myArray = [["John", 23], ["dog", 3]];
+myArray.unshift(["Paul", 35]);
 console.log(myArray);
-console.log(removedFromMyArray);
