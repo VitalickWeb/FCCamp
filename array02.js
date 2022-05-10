@@ -41,11 +41,11 @@
 // myArray.unshift(["Paul", 35]);
 // console.log(myArray);
 
-const myList = [
-    ['milk', 2],
-    ['bread', 1],
-    ['coffee', 8],
-    ['apples', 10],
-    ['oranges', 5]
-];
-console.log(myList);
+// const myList = [
+//     ['milk', 2],
+//     ['bread', 1],
+//     ['coffee', 8],
+//     ['apples', 10],
+//     ['oranges', 5]
+// ];
+// console.log(myList);
