@@ -54,15 +54,23 @@
 // }
 // console.log(myOutfit());
 
-let sum = 0;
+// let sum = 0;
 
-function addThree() {
-  sum = sum + 3;
-}
+// function addThree() {
+//   sum = sum + 3;
+// }
 
-function addFive() {
-    sum = sum + 5; 
-    console.log(sum);
+// function addFive() {
+//     sum = sum + 5; 
+//     console.log(sum);
+// }
+// addThree();
+// addFive();
+
+let processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
 }
-addThree();
-addFive();
+processed = processArg(7);
+console.log(processed);
