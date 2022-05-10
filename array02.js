@@ -23,6 +23,11 @@
 // const myData = myArray[2][1];
 // console.log(myData);
 
+// const myArray = [["John", 23], ["cat", 2]];
+// myArray.push(["dog", 3]);
+// console.log(myArray);
+
 const myArray = [["John", 23], ["cat", 2]];
-myArray.push(["dog", 3]);
+const removedFromMyArray = myArray.pop();
 console.log(myArray);
+console.log(removedFromMyArray);
