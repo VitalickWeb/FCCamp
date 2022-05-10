@@ -19,21 +19,29 @@
 // console.log(timesFive(0));
 
 //Global Scope and Functions
-let oopsGlobal; 
-function fun1() {
-   oopsGlobal = 5;
-}
+// let oopsGlobal; 
+// function fun1() {
+//    oopsGlobal = 5;
+// }
  
-let myGlobal = 10;
-function fun2() {
-  var output = "";
-  if (typeof myGlobal != "undefined") {
-    output += "myGlobal: " + myGlobal;
+// let myGlobal = 10;
+// function fun2() {
+//   var output = "";
+//   if (typeof myGlobal != "undefined") {
+//     output += "myGlobal: " + myGlobal;
+//   }
+//   if (typeof oopsGlobal != "undefined") {
+//     output += " oopsGlobal: " + oopsGlobal;
+//   }
+//   console.log(output);
+// }
+// fun1();
+// fun2();
+
+//Local Scope and Functions
+function myLocalScope() {
+    let myVar = 15;
+    console.log('inside myLocalScope', myVar);
   }
-  if (typeof oopsGlobal != "undefined") {
-    output += " oopsGlobal: " + oopsGlobal;
-  }
-  console.log(output);
-}
-fun1();
-fun2();
+  myLocalScope();
+  console.log('outside myLocalScope', myVar);// will cause an error
