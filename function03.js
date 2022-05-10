@@ -46,10 +46,23 @@
 //   myLocalScope();
 //   console.log('outside myLocalScope', myVar);// will cause an error
 
-const outerWear = "T-Shirt";
+// const outerWear = "T-Shirt";
 
-function myOutfit() {
-  let outerWear = 'sweater';
-  return outerWear;
+// function myOutfit() {
+//   let outerWear = 'sweater';
+//   return outerWear;
+// }
+// console.log(myOutfit());
+
+let sum = 0;
+
+function addThree() {
+  sum = sum + 3;
 }
-console.log(myOutfit());
+
+function addFive() {
+    sum = sum + 5; 
+    console.log(sum);
+}
+addThree();
+addFive();
