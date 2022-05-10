@@ -27,7 +27,12 @@
 // myArray.push(["dog", 3]);
 // console.log(myArray);
 
+// const myArray = [["John", 23], ["cat", 2]];
+// const removedFromMyArray = myArray.pop();
+// console.log(myArray);
+// console.log(removedFromMyArray);
+
 const myArray = [["John", 23], ["cat", 2]];
-const removedFromMyArray = myArray.pop();
+const removedFromMyArray = myArray.shift();
 console.log(myArray);
 console.log(removedFromMyArray);
