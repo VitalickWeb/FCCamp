@@ -39,9 +39,17 @@
 // fun2();
 
 //Local Scope and Functions
-function myLocalScope() {
-    let myVar = 15;
-    console.log('inside myLocalScope', myVar);
-  }
-  myLocalScope();
-  console.log('outside myLocalScope', myVar);// will cause an error
+// function myLocalScope() {
+//     let myVar = 15;
+//     console.log('inside myLocalScope', myVar);
+//   }
+//   myLocalScope();
+//   console.log('outside myLocalScope', myVar);// will cause an error
+
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+  let outerWear = 'sweater';
+  return outerWear;
+}
+console.log(myOutfit());
