@@ -92,12 +92,22 @@
 // console.log(welcomeToBooleans());
 
 
-function trueOrFalse(wasThatTrue) {
-    if (wasThatTrue === true) {
-        return 'Yes, that was true';
-    } else {
-        return 'No, that was false';
-    }
-}
+// function trueOrFalse(wasThatTrue) {
+//     if (wasThatTrue === true) {
+//         return 'Yes, that was true';
+//     } else {
+//         return 'No, that was false';
+//     }
+// }
 
-trueOrFalse(true);
+// trueOrFalse(true);
+
+
+function testEqual(val) {
+    if (val == 12) {
+      return "Equal";
+    } 
+    return "Not Equal";
+}
+  
+console.log(testEqual(10));
