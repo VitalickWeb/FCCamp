@@ -86,7 +86,18 @@
 // console.log(nextInLine(testArr, 6));
 
 
-function welcomeToBooleans() {
-    return true;
+// function welcomeToBooleans() {
+//     return true;
+// }
+// console.log(welcomeToBooleans());
+
+
+function trueOrFalse(wasThatTrue) {
+    if (wasThatTrue === true) {
+        return 'Yes, that was true';
+    } else {
+        return 'No, that was false';
+    }
 }
-console.log(welcomeToBooleans());
+
+trueOrFalse(true);
