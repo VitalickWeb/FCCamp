@@ -74,3 +74,13 @@
 // }
 // processed = processArg(7);
 // console.log(processed);
+
+function nextInLine(arr, item) { 
+    arr.push(item);
+    let elem = arr.shift(item);
+    item = elem;
+    return item;
+}
+
+const testArr = [1, 2, 3, 4, 5];
+console.log(nextInLine(testArr, 6));
