@@ -113,11 +113,11 @@
 // console.log(testEqual(10));
 
 
-function testStrict(val) {
-    if (val === 7) { 
-      return "Equal";
-    }
-    return "Not Equal";
-  }
+// function testStrict(val) {
+//     if (val === 7) { 
+//       return "Equal";
+//     }
+//     return "Not Equal";
+//   }
   
-  console.log(testStrict(10));
+//   console.log(testStrict(10));
