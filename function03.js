@@ -166,14 +166,28 @@
 //   console.log(testGreaterThan(10));
 
 
-function testGreaterOrEqual(val) {
-    if (val >= 20) { 
-      return "20 or Over";
+// function testGreaterOrEqual(val) {
+//     if (val >= 20) { 
+//       return "20 or Over";
+//     }
+//     if (val >= 10) { 
+//       return "10 or Over";
+//     }
+//     return "Less than 10";
+//   }
+  
+//   testGreaterOrEqual(10);
+
+
+function testLessThan(val) {
+    if (val < 25) {
+      return "Under 25";
     }
-    if (val >= 10) { 
-      return "10 or Over";
+    if (val < 55) { 
+      return "Under 55";
     }
-    return "Less than 10";
+  
+    return "55 or Over";
   }
   
-  testGreaterOrEqual(10);
+  testLessThan(10);
