@@ -207,12 +207,23 @@
 //   testLessOrEqual(10);
 
 
-function testLogicalAnd(val) {
-    if (val <= 50 && val >= 25) {
-        return "Yes";
-    }
+// function testLogicalAnd(val) {
+//     if (val <= 50 && val >= 25) {
+//         return "Yes";
+//     }
  
-    return "No";
+//     return "No";
+//   }
+  
+//   console.log(testLogicalAnd(10));
+
+
+function testLogicalOr(val) {
+    if (val > 20 || val < 10) {
+      return "Outside";
+    }
+
+    return "Inside";
   }
   
-  console.log(testLogicalAnd(10));
+  testLogicalOr(15);
