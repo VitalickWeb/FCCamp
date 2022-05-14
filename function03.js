@@ -193,15 +193,26 @@
 //   testLessThan(10);
 
 
-function testLessOrEqual(val) {
-    if (val <= 12) { 
-      return "Smaller Than or Equal to 12";
-    }
-    if (val <= 24) { 
-      return "Smaller Than or Equal to 24";
-    }
+// function testLessOrEqual(val) {
+//     if (val <= 12) { 
+//       return "Smaller Than or Equal to 12";
+//     }
+//     if (val <= 24) { 
+//       return "Smaller Than or Equal to 24";
+//     }
   
-    return "More Than 24";
+//     return "More Than 24";
+//   }
+  
+//   testLessOrEqual(10);
+
+
+function testLogicalAnd(val) {
+    if (val <= 50 && val >= 25) {
+        return "Yes";
+    }
+ 
+    return "No";
   }
   
-  testLessOrEqual(10);
+  console.log(testLogicalAnd(10));
