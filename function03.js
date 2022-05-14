@@ -218,12 +218,27 @@
 //   console.log(testLogicalAnd(10));
 
 
-function testLogicalOr(val) {
-    if (val > 20 || val < 10) {
-      return "Outside";
-    }
+// function testLogicalOr(val) {
+//     if (val > 20 || val < 10) {
+//       return "Outside";
+//     }
 
-    return "Inside";
+//     return "Inside";
+//   }
+  
+//   testLogicalOr(15);
+
+
+function testElse(val) {
+    let result = "";
+   
+    if (val > 5) {
+        result = "Bigger than 5";
+    } else {
+        result = "5 or Smaller";
+    }
+  
+    return result;
   }
   
-  testLogicalOr(15);
+  testElse(4);
