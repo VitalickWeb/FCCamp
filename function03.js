@@ -315,23 +315,45 @@
 // golfScore(5, 4);
 
 
-function caseInSwitch(val) {
+// function caseInSwitch(val) {
+//     let answer = "";
+//     switch(val) {
+//         case 1:
+//             answer = 'alpha';
+//         break;
+//         case 2:
+//             answer = 'beta';
+//         break;
+//         case 3:
+//             answer = 'gamma';
+//         break;
+//         case 4:
+//             answer = 'delta';
+//         break;
+//     }      
+//         return answer;
+    
+// }
+//   console.log(caseInSwitch(1));
+
+
+function switchOfStuff(val) {
     let answer = "";
     switch(val) {
-        case 1:
-            answer = 'alpha';
+        case "a":
+            answer = 'apple';
         break;
-        case 2:
-            answer = 'beta';
+        case "b":
+            answer = 'bird';
         break;
-        case 3:
-            answer = 'gamma';
+        case "c":
+            answer = 'cat';
         break;
-        case 4:
-            answer = 'delta';
+        default: 
+            answer = 'stuff';
         break;
-    }      
+    }     
         return answer;
     
 }
-  console.log(caseInSwitch(1));
+console.log(switchOfStuff("a"));
